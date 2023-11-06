@@ -17,14 +17,14 @@ const Header = () => {
       <ul>
         <li
           onClick={() => {
-            goPage("/mypage");
+            goPage("/myPage");
           }}
         >
           MY페이지
         </li>
         <li
           onClick={() => {
-            goPage("/login");
+            goPage("/logIn");
           }}
         >
           로그인

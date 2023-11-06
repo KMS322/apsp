@@ -9,6 +9,11 @@ import InfoDetailComponents from "./pages/infoDetail/infoDetailComponents";
 import ProcessComponent from "./pages/process/processComponent";
 import EduProgramComponent from "./pages/eduProgram/eduProgramComponent";
 import EduDetailComonents from "./pages/eduDetail/eduDetailComponents";
+import SquareComponents from "./pages/square/squareComponent.js";
+import LogInComponent from "./pages/logIn/logInComponent.js";
+import SignInComponent from "./pages/signIn/signInComponent.js";
+import MyPageComponents from "./pages/myPage/myPageComponents.js";
+import SignInFormComponents from "./pages/signInForm/signInFormComponents.js";
 
 function App() {
   return (
@@ -21,6 +26,11 @@ function App() {
         <Route path="/process" element={<ProcessComponent />} />
         <Route path="/eduProgram" element={<EduProgramComponent />} />
         <Route path="/eduDetail" element={<EduDetailComonents />} />
+        <Route path="/square" element={<SquareComponents />} />
+        <Route path="/logIn" element={<LogInComponent />} />
+        <Route path="/signIn" element={<SignInComponent />} />
+        <Route path="/myPage" element={<MyPageComponents />} />
+        <Route path="/signInForm" element={<SignInFormComponents />} />
       </Routes>
       <Footer />
     </>

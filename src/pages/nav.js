@@ -30,7 +30,13 @@ const Nav = () => {
         >
           교육프로그램
         </li>
-        <li>일자리광장</li>
+        <li
+          onClick={() => {
+            goPage("/square");
+          }}
+        >
+          일자리광장
+        </li>
       </ul>
       <ul>
         <li>이력서등록</li>

@@ -1,0 +1,78 @@
+/* signInForm_s1 */
+.signInForm_s1 {
+  width: 100%;
+  height: 28.01vw;
+}
+.signInForm_s1 .checkBox_container {
+  width: 36.89%;
+  height: 64.17%;
+  margin: 0 auto;
+  margin-top: 6.03vw;
+}
+.signInForm_s1 .checkBox_container .check_box_all {
+  width: 100%;
+  height: 18.13%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f8f8f8;
+  border: 2px solid #b6b6b6;
+}
+.signInForm_s1 .checkBox_container .check_box_nec {
+  width: 100%;
+  height: 48.75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid #b6b6b6;
+  border-top: none;
+}
+.signInForm_s1 .checkBox_container .check_box_unNec {
+  width: 100%;
+  height: 32.95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid #b6b6b6;
+  border-top: none;
+}
+.signInForm_s1 .checkBox_container .check_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.signInForm_s1 .checkBox_container .check_box_all .check_box {
+  height: 51.72%;
+}
+.signInForm_s1 .checkBox_container .check_box_nec .check_box {
+  height: 24.19%;
+}
+.signInForm_s1 .checkBox_container .check_box_unNec .check_box {
+  height: 38.79%;
+}
+.signInForm_s1 .checkBox_container .check_box img {
+  width: 1.5vw;
+  height: 1.5vw;
+  cursor: pointer;
+  margin-left: 1.27vw;
+}
+.signInForm_s1 .checkBox_container .check_box p {
+  margin-left: 1.5vw;
+  font-size: 1.2vw;
+}
+.signInForm_s1 .checkBox_container .check_box_unNec .check_box p {
+  color: #b6b6b6;
+}
+
+/* signInForm_s2 */
+.signInForm_s2 {
+  width: 100%;
+  height: 117.83vw;
+  border: 1px solid red;
+}
+.signInForm_s2 .form_container {
+  width: 36.89%;
+  height: 93.99%;
+  margin: 0 auto;
+  border: 1px solid blue;
+}
