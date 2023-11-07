@@ -3,7 +3,7 @@ import SignInFormS2 from "./signInFormS2";
 const SignInFormComponents = () => {
   return (
     <>
-      {/* <SignInFormS1 /> */}
+      <SignInFormS1 />
       <SignInFormS2 />
     </>
   );

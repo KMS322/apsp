@@ -100,6 +100,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .myPage_s2 .article_container .table_container {
   width: 100%;
@@ -122,11 +123,11 @@
 }
 .myPage_s2 .article_container .table_container .row p:nth-child(2) {
   margin-left: 10vw;
-  width: 14.44%;
+  width: 15%;
 }
 .myPage_s2 .article_container .table_container .row p:nth-child(3) {
   margin-left: 10.52vw;
-  width: 10.55%;
+  width: 11%;
 }
 .myPage_s2 .article_container .table_container .row p:nth-child(4) {
   margin-left: 4.46vw;

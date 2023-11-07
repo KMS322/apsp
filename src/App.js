@@ -14,6 +14,7 @@ import LogInComponent from "./pages/logIn/logInComponent.js";
 import SignInComponent from "./pages/signIn/signInComponent.js";
 import MyPageComponents from "./pages/myPage/myPageComponents.js";
 import SignInFormComponents from "./pages/signInForm/signInFormComponents.js";
+import ResumeComponents from "./pages/resume/resumeComponents.js";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/signIn" element={<SignInComponent />} />
         <Route path="/myPage" element={<MyPageComponents />} />
         <Route path="/signInForm" element={<SignInFormComponents />} />
+        <Route path="/resume" element={<ResumeComponents />} />
       </Routes>
       <Footer />
     </>

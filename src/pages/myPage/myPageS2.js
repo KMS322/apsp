@@ -11,7 +11,14 @@ const MyPageS2 = () => {
       <div className="article_container">
         <div className="box_container">
           <p>이력서 관리</p>
-          <div className="btn_box">신규 이력서 작성</div>
+          <div
+            className="btn_box"
+            onClick={() => {
+              navigate("/resume");
+            }}
+          >
+            신규 이력서 작성
+          </div>
         </div>
         <div className="table_container">
           <div className="head_row row">
