@@ -1,4 +1,5 @@
 import "../../css/eduDetail.css";
+import "../../css/eduDetail_mobile.css";
 const EduDetailS1 = () => {
   return (
     <div className="eduDetail_s1">

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { dates, sortings, condition_details } from "./selectDatas2";
 import "../../css/matchingInfo.css";
+import "../../css/matchingInfo_mobile.css";
 const MatchingS3 = () => {
   const navigate = useNavigate();
   const [selectedDate, setSelectedDate] = useState("");
@@ -67,11 +68,19 @@ const MatchingS3 = () => {
         </div>
         <div className="table_container">
           <div className="head_row row">
-            <p>지역 / 근무지</p>
+            <p>
+              지역{" "}
+              <span
+                style={{ color: "#333333", fontWeight: "Bold" }}
+                className="pc"
+              >
+                / 근무지
+              </span>
+            </p>
             <p>기업명 / 공고제목</p>
             <p>근무시간</p>
             <p>급여</p>
-            <p>등록일</p>
+            <p className="pc">등록일</p>
           </div>
           <div
             className="content_row row"
@@ -79,17 +88,31 @@ const MatchingS3 = () => {
               goPage("/infoDetail");
             }}
           >
-            <p>경산시</p>
+            <p>
+              경산시
+              <br />
+              <span className="mobile">1분전</span>
+            </p>
             <p>
               재택 가능한 임시직 보조 구인
               <br />
               <span>회전문</span>
             </p>
-            <p>09:00~18:00</p>
-            <p className="hour">
-              <span>시급</span> 12,000원
+            <p>
+              09:00
+              <span className="mobile">
+                <br />
+              </span>
+              ~18:00
             </p>
-            <p>1분전</p>
+            <p className="hour">
+              <span>시급</span>
+              <span className="mobile">
+                <br />
+              </span>{" "}
+              12,000원
+            </p>
+            <p className="pc">1분전</p>
           </div>
           <div
             className="content_row row"
@@ -97,7 +120,10 @@ const MatchingS3 = () => {
               goPage("/infoDetail");
             }}
           >
-            <p>경산시</p>
+            <p>
+              경산시 <br />
+              <span className="mobile">1분전</span>
+            </p>
             <p>
               재택 가능한 임시직 보조 구인
               <br />
@@ -105,9 +131,13 @@ const MatchingS3 = () => {
             </p>
             <p>시간협의</p>
             <p className="day">
-              <span>일급</span> 83,000원
+              <span>일급</span>
+              <span className="mobile">
+                <br />
+              </span>{" "}
+              83,000원
             </p>
-            <p>1분전</p>
+            <p className="pc">1분전</p>
           </div>
           <div
             className="content_row row"
@@ -115,17 +145,30 @@ const MatchingS3 = () => {
               goPage("/infoDetail");
             }}
           >
-            <p>경산시</p>
+            <p>
+              경산시 <br />
+              <span className="mobile">1분전</span>
+            </p>
             <p>
               재택 가능한 임시직 보조 구인
               <br />
               <span>회전문</span>
             </p>
-            <p>09:00~18:00</p>
-            <p className="month">
-              <span>월급</span> 2,020,000원
+            <p>
+              09:00{" "}
+              <span className="mobile">
+                <br />
+              </span>
+              ~18:00
             </p>
-            <p>5분전</p>
+            <p className="month">
+              <span>월급</span>{" "}
+              <span className="mobile">
+                <br />
+              </span>
+              2,020,000원
+            </p>
+            <p className="pc">5분전</p>
           </div>
           <div
             className="content_row row"
@@ -133,7 +176,10 @@ const MatchingS3 = () => {
               goPage("/infoDetail");
             }}
           >
-            <p>경산시</p>
+            <p>
+              경산시 <br />
+              <span className="mobile">1분전</span>
+            </p>
             <p>
               재택 가능한 임시직 보조 구인
               <br />
@@ -141,9 +187,13 @@ const MatchingS3 = () => {
             </p>
             <p>-</p>
             <p className="day">
-              <span>일급</span> 83,000원
+              <span>일급</span>{" "}
+              <span className="mobile">
+                <br />
+              </span>
+              83,000원
             </p>
-            <p>10분전</p>
+            <p className="pc">10분전</p>
           </div>
           <div
             className="content_row row"
@@ -151,7 +201,10 @@ const MatchingS3 = () => {
               goPage("/infoDetail");
             }}
           >
-            <p>경산시</p>
+            <p>
+              경산시 <br />
+              <span className="mobile">1분전</span>
+            </p>
             <p>
               재택 가능한 임시직 보조 구인
               <br />
@@ -159,9 +212,13 @@ const MatchingS3 = () => {
             </p>
             <p>시간협의</p>
             <p className="hour">
-              <span>시급</span> 12,000원
+              <span>시급</span>
+              <span className="mobile">
+                <br />
+              </span>{" "}
+              12,000원
             </p>
-            <p>12분전</p>
+            <p className="pc">12분전</p>
           </div>
         </div>
         <div className="page_num">

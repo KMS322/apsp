@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Banner from "../banner";
 import "../../css/eduProgram.css";
+import "../../css/eduProgram_mobile.css";
 
 const EduProgramComponent = () => {
   const navigate = useNavigate();
@@ -23,11 +24,12 @@ const EduProgramComponent = () => {
         <div className="title_box">
           <div className="title">
             <img src="/images/edu_program_s1_img1.png" />
-            <p>교육프로그램 > 개정세법요약정리</p>
+            <p className="pc">교육프로그램 > 개정세법요약정리</p>
+            <p className="mobile">교육프로그램</p>
           </div>
         </div>
         <div className="article_container">
-          <div className="select_box">
+          <div className="select_box" id="pc">
             <select
               name="sorting"
               value={selectedSorting}

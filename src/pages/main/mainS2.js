@@ -1,3 +1,5 @@
+import "../../css/main.css";
+import "../../css/main_mobile.css";
 const MainS2 = () => {
   return (
     <div className="main_s2">
@@ -9,7 +11,7 @@ const MainS2 = () => {
         <div className="text_box">
           <div className="box">
             <p>SEP</p>
-            <p>법인등</p>
+            <p>법인등록</p>
           </div>
           <div className="box">
             <p>OCT</p>

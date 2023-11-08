@@ -1,4 +1,5 @@
 import "../css/header.css";
+import "../css/header_mobile.css";
 import { useNavigate } from "react-router-dom";
 const Header = () => {
   const navigate = useNavigate();
@@ -37,6 +38,9 @@ const Header = () => {
           회원가입
         </li>
       </ul>
+      <div className="img_box mobile">
+        <img src="/images/m_header_icon.png" alt="" />
+      </div>
     </div>
   );
 };

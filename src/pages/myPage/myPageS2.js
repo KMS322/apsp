@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "../../css/myPage.css";
+import "../../css/myPage_mobile.css";
 const MyPageS2 = () => {
   const navigate = useNavigate();
 
@@ -22,7 +23,7 @@ const MyPageS2 = () => {
         </div>
         <div className="table_container">
           <div className="head_row row">
-            <p>지역 / 근무지</p>
+            <p className="pc">지역 / 근무지</p>
             <p>이력서 제목</p>
             <p>최종 수정일</p>
             <p>지원여부</p>
@@ -34,7 +35,7 @@ const MyPageS2 = () => {
               goPage("/infoDetail");
             }}
           >
-            <p>경산시</p>
+            <p className="pc">경산시</p>
             <p>
               출근 가능한 임시직 인재
               <br />
@@ -53,7 +54,7 @@ const MyPageS2 = () => {
               goPage("/infoDetail");
             }}
           >
-            <p>경산시</p>
+            <p className="pc">경산시</p>
             <p>
               출근 가능한 임시직 인재
               <br />
@@ -72,7 +73,7 @@ const MyPageS2 = () => {
               goPage("/infoDetail");
             }}
           >
-            <p>경산시</p>
+            <p className="pc">경산시</p>
             <p>
               출근 가능한 임시직 인재
               <br />
@@ -91,7 +92,7 @@ const MyPageS2 = () => {
               goPage("/infoDetail");
             }}
           >
-            <p>경산시</p>
+            <p className="pc">경산시</p>
             <p>
               출근 가능한 임시직 인재
               <br />
@@ -110,7 +111,7 @@ const MyPageS2 = () => {
               goPage("/infoDetail");
             }}
           >
-            <p>경산시</p>
+            <p className="pc">경산시</p>
             <p>
               출근 가능한 임시직 인재
               <br />

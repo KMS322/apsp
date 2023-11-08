@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../../css/logIn.css";
+import "../../css/logIn_mobile.css";
 const LogInComponent = () => {
   const navigate = useNavigate();
   const [inputID, setInputID] = useState();

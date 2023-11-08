@@ -4,8 +4,8 @@ import InfoDetailS2 from "./infoDetailS2";
 const InfoDetailComponents = () => {
   return (
     <>
-      {/* <Banner /> */}
-      {/* <InfoDetailS1 /> */}
+      <Banner />
+      <InfoDetailS1 />
       <InfoDetailS2 />
     </>
   );
