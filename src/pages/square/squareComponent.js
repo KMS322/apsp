@@ -1,5 +1,6 @@
 import Banner from "../banner";
 import "../../css/square.css";
+import "../../css/square_mobile.css";
 const SquareComponents = () => {
   return (
     <>

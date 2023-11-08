@@ -10,6 +10,7 @@ import {
   condition_details,
 } from "./selectDatas";
 import "../../css/matchingInfo.css";
+import "../../css/matchingInfo_mobile.css";
 const MatchingS2 = () => {
   const [selectedRegion, setSelectedRegion] = useState("");
   const [selectedRegionDetail, setSelectedRegionDetail] = useState(

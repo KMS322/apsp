@@ -1,4 +1,5 @@
 import "../../css/matchingInfo.css";
+import "../../css/matchingInfo_mobile.css";
 const MatchingS1 = () => {
   return (
     <div className="matchingInfo_s1">

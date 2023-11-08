@@ -20,7 +20,13 @@ const InfoDetailS2 = () => {
             </div>
             <div className="text_box">
               <p>시간</p>
-              <p>09:00~18:00 (재택가능)</p>
+              <p>
+                09:00~18:00{" "}
+                <span className="mobile">
+                  <br />
+                </span>
+                (재택가능)
+              </p>
             </div>
           </div>
           <div className="article">
@@ -34,7 +40,13 @@ const InfoDetailS2 = () => {
             </div>
             <div className="text_box">
               <p>모집기간</p>
-              <p>2023.08.08 00:00 ~ 2023.09.09 23:59</p>
+              <p>
+                2023.08.08 00:00{" "}
+                <span className="mobile">
+                  <br />
+                </span>
+                ~ 2023.09.09 23:59
+              </p>
             </div>
             <div className="text_box">
               <p>문의</p>

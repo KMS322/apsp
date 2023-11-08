@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "../../css/signIn.css";
+import "../../css/signIn_mobile.css";
 const SignInComponent = () => {
   const navigate = useNavigate();
 

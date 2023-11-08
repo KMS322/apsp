@@ -1,4 +1,5 @@
 import "../../css/infoDetail.css";
+import "../../css/infoDetail_mobile.css";
 const InfoDetailS1 = () => {
   return (
     <div className="info_detail_s1">

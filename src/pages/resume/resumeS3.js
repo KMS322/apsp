@@ -1,29 +1,5 @@
-import React, { useState } from "react";
 import "../../css/resume.css";
 const ResumeS3 = () => {
-  const [inputValues1, setInputValues1] = useState([
-    { name: "hopeMonth", value: "", label: "개월", type: "number" },
-    { name: "hopeWeek", value: "", label: "주", type: "number" },
-    { name: "hopeDay", value: "", label: "일", type: "number" },
-  ]);
-  const [inputValues2, setInputValues2] = useState([
-    { name: "pay", value: "", type: "text" },
-  ]);
-  const [checkState1, setCheckState1] = useState(true); // true : 재택, false : 출근
-
-  const handleInputChange1 = (event, name) => {
-    const newInputValues1 = [...inputValues1];
-    const index = newInputValues1.findIndex((item) => item.name === name);
-    newInputValues1[index].value = event.target.value;
-    setInputValues1(newInputValues1);
-  };
-  const changeState1 = () => {
-    setCheckState1(!checkState1);
-  };
-  const handleInputChange2 = (event) => {
-    const newValue2 = event.target.value;
-    setInputValues2((prev) => [...prev, { value: newValue2 }]);
-  };
   return (
     <div className="resume_s3">
       <div className="line_box"></div>
@@ -41,7 +17,7 @@ const ResumeS3 = () => {
             </p>
           </div>
           <div className="btn_box">
-            <div className="btn">아니요</div>
+            <div className="btn">아니</div>
             <div className="btn">예</div>
           </div>
         </div>
@@ -50,78 +26,41 @@ const ResumeS3 = () => {
             <div className="input_box">
               <p>희망 근무기간</p>
               <div className="input_box_container_01">
-                {inputValues1.map((value, index) => {
-                  return (
-                    <div className="input_box_01">
-                      <input
-                        name={value.name}
-                        type={value.type}
-                        value={value.value}
-                        onChange={(event) => {
-                          handleInputChange1(event);
-                        }}
-                      />
-                      <p>{value.label}</p>
-                    </div>
-                  );
-                })}
+                <div className="input_box_01">
+                  <input />
+                  <p>개월</p>
+                </div>
+                <div className="input_box_01">
+                  <input />
+                  <p>주</p>
+                </div>
+                <div className="input_box_01">
+                  <input />
+                  <p>일</p>
+                </div>
               </div>
             </div>
             <div className="input_box">
               <p>희망 근무형태</p>
               <div className="input_box_container_01">
                 <div className="input_box_01">
-                  <img
-                    src={
-                      checkState1 === true
-                        ? "/images/signInForm_s1_img2.png"
-                        : "/images/signInForm_s1_img1.png"
-                    }
-                    onClick={changeState1}
-                  />
-                  <p style={{ color: checkState1 === true ? "#2196F3" : "" }}>
-                    재택
-                  </p>
+                  <img src="/images/signInForm_s1_img1.png" alt="" />
+                  <p>개인</p>
                 </div>
                 <div className="input_box_01">
-                  <img
-                    src={
-                      checkState1 === false
-                        ? "/images/signInForm_s1_img2.png"
-                        : "/images/signInForm_s1_img1.png"
-                    }
-                    onClick={changeState1}
-                  />
-                  <p style={{ color: checkState1 === false ? "#2196F3" : "" }}>
-                    출근
-                  </p>
+                  <img src="/images/signInForm_s1_img1.png" alt="" />
+                  <p>출근</p>
                 </div>
               </div>
             </div>
             <div className="input_box">
               <p>희망 보수</p>
               <div className="input_box_container_01">
-                <div className="input_box_01">
-                  <input
-                    name={inputValues2.name}
-                    type={inputValues2.type}
-                    value={inputValues2.value}
-                    onChange={(event) => {
-                      handleInputChange2(event);
-                    }}
-                  />
-                </div>
+                <div className="input_box_01"></div>
               </div>
             </div>
           </div>
         </div>
-        <div className="btn_container">
-          <div className="btn">취소</div>
-          <div className="btn">이력서 저장</div>
-        </div>
-      </div>
-      <div className="text_box">
-        <p>© 2023 회전문</p>
       </div>
     </div>
   );

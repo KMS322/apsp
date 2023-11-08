@@ -4,8 +4,8 @@ import ResumeS3 from "./resumeS3";
 const ResumeComponents = () => {
   return (
     <>
-      <ResumeS1 />
-      <ResumeS2 />
+      {/* <ResumeS1 /> */}
+      {/* <ResumeS2 /> */}
       <ResumeS3 />
     </>
   );

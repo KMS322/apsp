@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "../../css/myPage.css";
+import "../../css/myPage_mobile.css";
 const MyPageS1 = () => {
   const navigate = useNavigate();
 

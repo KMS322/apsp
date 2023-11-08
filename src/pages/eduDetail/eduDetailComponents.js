@@ -7,7 +7,7 @@ const EduDetailComonents = () => {
     <>
       {/* <Nav /> */}
       <Banner />
-      {/* <EduDetailS1 /> */}
+      <EduDetailS1 />
       <EduDetailS2 />
     </>
   );
