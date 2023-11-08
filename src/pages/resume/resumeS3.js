@@ -17,7 +17,7 @@ const ResumeS3 = () => {
             </p>
           </div>
           <div className="btn_box">
-            <div className="btn">아니</div>
+            <div className="btn">아니요</div>
             <div className="btn">예</div>
           </div>
         </div>
@@ -56,12 +56,19 @@ const ResumeS3 = () => {
             <div className="input_box">
               <p>희망 보수</p>
               <div className="input_box_container_01">
-                <div className="input_box_01"></div>
+                <div className="input_box_01">
+                  <input />
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <div className="btn_box">
+          <div className="btn">취소</div>
+          <div className="btn">이력서 저장</div>
+        </div>
       </div>
+      <div className="text_box">© 2023 회전문</div>
     </div>
   );
 };

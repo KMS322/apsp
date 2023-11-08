@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../../css/signInForm.css";
+import "../../css/signInForm_mobile.css";
 const SignInFormS2 = () => {
   const [inputValues, setInputValues] = useState([
     { name: "userName", value: "", label: "이름", type: "text" },
@@ -41,7 +42,7 @@ const SignInFormS2 = () => {
   const [selectedOptions5, setSelectedOptions5] = useState([]);
   const options5 = ["상", "중", "하"];
   const [selectedOptions6, setSelectedOptions6] = useState([]);
-  const options6 = ["회계감", "연구개발비 정산", "빅 시즌 취업"];
+  const options6 = ["회계감사", "연구개발비 정산", "빅 시즌 취업"];
   // 근무 경력
   const [inputValues2, setInputValues2] = useState([
     { name: "careerYear", value: "", label: "년", type: "number" },
