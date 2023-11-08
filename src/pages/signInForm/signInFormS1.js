@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../../css/signInForm.css";
+import "../../css/signInForm_mobile.css";
+
 const SignInFormS1 = () => {
   const [checkStateAll, setCheckStateAll] = useState(false);
   const [checkStateNec1, setCheckStateNec1] = useState(false);

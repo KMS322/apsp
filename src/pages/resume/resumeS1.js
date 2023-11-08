@@ -1,4 +1,5 @@
 import "../../css/resume.css";
+import "../../css/resume_mobile.css";
 const ResumeS1 = () => {
   return (
     <div className="resume_s1">
