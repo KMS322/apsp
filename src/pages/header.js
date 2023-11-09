@@ -126,7 +126,14 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <p>로그인</p>
+        <p
+          onClick={() => {
+            goPage("/login");
+            handleMenu();
+          }}
+        >
+          로그인
+        </p>
       </div>
       <div
         className="bg_black"
