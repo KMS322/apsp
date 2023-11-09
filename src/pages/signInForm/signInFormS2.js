@@ -186,26 +186,22 @@ const SignInFormS2 = () => {
         <div className="input_box type2 input_margin">
           <p>전문인자격</p>
           <div className="select_box">
-            {options1.map((option, index) => {
-              if (index < 3) {
-                return (
-                  <div
-                    className={
-                      selectedOptions1.includes(option)
-                        ? "select selected"
-                        : "select"
-                    }
-                    key={index}
-                    onClick={() => {
-                      toggleOption1(option);
-                    }}
-                  >
-                    {option}
-                  </div>
-                );
-              } else {
-                return;
-              }
+            {options1.slice(0, 3).map((option, index) => {
+              return (
+                <div
+                  className={
+                    selectedOptions1.includes(option)
+                      ? "select selected"
+                      : "select"
+                  }
+                  key={index}
+                  onClick={() => {
+                    toggleOption1(option);
+                  }}
+                >
+                  {option}
+                </div>
+              );
             })}
           </div>
         </div>
