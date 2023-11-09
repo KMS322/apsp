@@ -1,9 +1,12 @@
 import Banner from "../banner";
 import "../../css/square.css";
 import "../../css/square_mobile.css";
+import Nav from "../nav";
+
 const SquareComponents = () => {
   return (
     <>
+      <Nav />
       <Banner />
       <div className="square_s1">
         <div className="title_box">

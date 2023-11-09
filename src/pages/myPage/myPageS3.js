@@ -36,7 +36,7 @@ const MyPageS3 = () => {
               <span className="mobile">
                 <br />
               </span>
-              12,000원
+              &nbsp;12,000원
             </p>
             <div className="btn_reject">거절 완료</div>
           </div>
@@ -58,7 +58,7 @@ const MyPageS3 = () => {
               <span className="mobile">
                 <br />
               </span>
-              83,000원
+              &nbsp;83,000원
             </p>
             <div className="btn_accept">수락 완료</div>
           </div>
@@ -80,7 +80,7 @@ const MyPageS3 = () => {
               <span className="mobile">
                 <br />
               </span>
-              2,020,000원
+              &nbsp;2,020,000원
             </p>
             <div className="btn_box">
               <div className="btn">수락</div>

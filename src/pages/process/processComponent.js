@@ -1,9 +1,11 @@
 import Banner from "../banner";
 import "../../css/process.css";
 import "../../css/process_mobile.css";
+import Nav from "../nav";
 const ProcessComponent = () => {
   return (
     <>
+      <Nav />
       <Banner />
       <div className="process_s1">
         <div className="title_box">

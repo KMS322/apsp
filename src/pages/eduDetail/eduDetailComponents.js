@@ -5,7 +5,7 @@ import EduDetailS2 from "./eduDetailS2";
 const EduDetailComonents = () => {
   return (
     <>
-      {/* <Nav /> */}
+      <Nav />
       <Banner />
       <EduDetailS1 />
       <EduDetailS2 />

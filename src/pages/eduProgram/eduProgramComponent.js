@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Banner from "../banner";
 import "../../css/eduProgram.css";
 import "../../css/eduProgram_mobile.css";
+import Nav from "../nav";
 
 const EduProgramComponent = () => {
   const navigate = useNavigate();
@@ -19,6 +20,7 @@ const EduProgramComponent = () => {
   };
   return (
     <>
+      <Nav />
       <Banner />
       <div className="eduProgram_s1">
         <div className="title_box">

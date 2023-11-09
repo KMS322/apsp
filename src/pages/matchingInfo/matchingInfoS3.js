@@ -69,10 +69,10 @@ const MatchingS3 = () => {
         <div className="table_container">
           <div className="head_row row">
             <p>
-              지역{" "}
+              지역
               <span
                 style={{ color: "#333333", fontWeight: "Bold" }}
-                className="pc"
+                className="mobile"
               >
                 / 근무지
               </span>

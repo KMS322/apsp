@@ -126,6 +126,8 @@
   }
   .myPage_s3 .article_container .table_container .row p:nth-child(4) {
     width: 16%;
+    letter-spacing: -0.02vw;
+    line-height: 2vw;
   }
   .myPage_s3 .article_container .table_container .row p:nth-child(5) {
     width: 16%;
