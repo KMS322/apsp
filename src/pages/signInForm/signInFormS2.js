@@ -203,6 +203,8 @@ const SignInFormS2 = () => {
                     {option}
                   </div>
                 );
+              } else {
+                return;
               }
             })}
           </div>
@@ -277,6 +279,7 @@ const SignInFormS2 = () => {
                     : "/images/signInForm_s1_img1.png"
                 }
                 onClick={changeState1}
+                alt=""
               />
               <p style={{ color: checkState1 === true ? "#2196F3" : "" }}>
                 개인
@@ -290,6 +293,7 @@ const SignInFormS2 = () => {
                     : "/images/signInForm_s1_img1.png"
                 }
                 onClick={changeState1}
+                alt=""
               />
               <p style={{ color: checkState1 === false ? "#2196F3" : "" }}>
                 법인
@@ -415,6 +419,7 @@ const SignInFormS2 = () => {
                     ? "/images/signInForm_s1_img2.png"
                     : "/images/signInForm_s1_img1.png"
                 }
+                alt=""
                 onClick={changeState1}
               />
               <p style={{ color: checkState1 === true ? "#2196F3" : "" }}>
@@ -429,6 +434,7 @@ const SignInFormS2 = () => {
                     : "/images/signInForm_s1_img1.png"
                 }
                 onClick={changeState1}
+                alt=""
               />
               <p style={{ color: checkState1 === false ? "#2196F3" : "" }}>
                 출근

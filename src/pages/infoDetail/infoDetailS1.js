@@ -5,7 +5,7 @@ const InfoDetailS1 = () => {
     <div className="info_detail_s1">
       <div className="title_box">
         <div className="title">
-          <img src="/images/info_detail_s1_img.png" />
+          <img src="/images/info_detail_s1_img.png" alt="" />
           <p>회계전문인임시직매칭정보</p>
         </div>
       </div>

@@ -25,7 +25,7 @@ const EduProgramComponent = () => {
       <div className="eduProgram_s1">
         <div className="title_box">
           <div className="title">
-            <img src="/images/edu_program_s1_img1.png" />
+            <img src="/images/edu_program_s1_img1.png" alt="" />
             <p className="pc">교육프로그램 > 개정세법요약정리</p>
             <p className="mobile">교육프로그램</p>
           </div>

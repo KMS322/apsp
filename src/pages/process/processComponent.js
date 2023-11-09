@@ -10,12 +10,12 @@ const ProcessComponent = () => {
       <div className="process_s1">
         <div className="title_box">
           <div className="title">
-            <img src="/images/process_s1_img1.png" />
+            <img src="/images/process_s1_img1.png" alt="" />
             <p>매칭프로세스</p>
           </div>
         </div>
         <div className="article_container">
-          <img src="/images/process_s1_img2.jpg" />
+          <img src="/images/process_s1_img2.jpg" alt="" />
           <div className="text_box">
             <p>
               매칭 프로세스{" "}

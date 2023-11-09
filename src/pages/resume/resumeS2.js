@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "../../css/resume.css";
 const ResumeS2 = () => {
   return (
@@ -41,9 +40,9 @@ const ResumeS2 = () => {
             </div>
             <div className="input_box">
               <p>사업장 형태</p>
-              <img src="/images/signInForm_s1_img2.png" />
+              <img src="/images/signInForm_s1_img2.png" alt="" />
               <p>개인</p>
-              <img src="/images/signInForm_s1_img1.png" />
+              <img src="/images/signInForm_s1_img1.png" alt="" />
               <p>법인</p>
               <p>업태</p>
               <div className="input_btn">제조업</div>
@@ -55,7 +54,6 @@ const ResumeS2 = () => {
             <input />
           </div>
         </div>
-
         <div className="article4">
           <p>자기소개서</p>
           <div className="title_box">

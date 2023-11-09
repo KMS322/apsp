@@ -48,6 +48,7 @@ const SignInFormS1 = () => {
                   ? "/images/signInForm_s1_img2.png"
                   : "/images/signInForm_s1_img1.png"
               }
+              alt=""
               onClick={changeState}
             />
             <p>전체 이용약관에 동의</p>
@@ -62,6 +63,7 @@ const SignInFormS1 = () => {
                   : "/images/signInForm_s1_img1.png"
               }
               onClick={changeState1}
+              alt=""
             />
             <p>[필수] 만 15세 이상입니다.</p>
           </div>
@@ -73,6 +75,7 @@ const SignInFormS1 = () => {
                   : "/images/signInForm_s1_img1.png"
               }
               onClick={changeState2}
+              alt=""
             />
             <p>[필수] 서비스 이용약관동의</p>
           </div>
@@ -84,6 +87,7 @@ const SignInFormS1 = () => {
                   : "/images/signInForm_s1_img1.png"
               }
               onClick={changeState3}
+              alt=""
             />
             <p>[필수] 개인정보 수집 및 이용 동의</p>
           </div>
@@ -97,6 +101,7 @@ const SignInFormS1 = () => {
                   : "/images/signInForm_s1_img1.png"
               }
               onClick={changeState4}
+              alt=""
             />
             <p>[선택] 개인정보수집 및 이용 동의-마케팅</p>
           </div>
@@ -108,6 +113,7 @@ const SignInFormS1 = () => {
                   : "/images/signInForm_s1_img1.png"
               }
               onClick={changeState5}
+              alt=""
             />
             <p>[선택] 광고성 정보 이메일/SMS 수신 동의</p>
           </div>
