@@ -106,7 +106,7 @@
   height: 9.61%;
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
 }
 .eduDetail_s2 .article_container .title_box p:nth-child(1) {
   font-size: 1.35vw;

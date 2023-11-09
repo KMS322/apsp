@@ -38,7 +38,7 @@
   margin-top: 3.37vw;
   margin-left: 6.59vw;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .eduProgram_s1 .article_container .select_box select {
   width: 7.8%;
